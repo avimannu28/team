@@ -4,6 +4,7 @@ if(isset($_POST['submit']))
 {
 $id=$_POST['number'];
 $curl = curl_init();
+//heyyy
 
 curl_setopt_array($curl, array(
   CURLOPT_URL => "https://api.bigcommerce.com/stores/7ud2b3dr9p/v3/catalog/categories/$id",
